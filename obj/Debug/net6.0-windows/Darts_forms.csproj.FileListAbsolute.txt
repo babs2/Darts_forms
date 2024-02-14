@@ -1,0 +1,16 @@
+C:\Users\Brian\source\repos\Darts_forms\bin\Debug\net6.0-windows\Darts_forms.exe
+C:\Users\Brian\source\repos\Darts_forms\bin\Debug\net6.0-windows\Darts_forms.deps.json
+C:\Users\Brian\source\repos\Darts_forms\bin\Debug\net6.0-windows\Darts_forms.runtimeconfig.json
+C:\Users\Brian\source\repos\Darts_forms\bin\Debug\net6.0-windows\Darts_forms.dll
+C:\Users\Brian\source\repos\Darts_forms\bin\Debug\net6.0-windows\Darts_forms.pdb
+C:\Users\Brian\source\repos\Darts_forms\obj\Debug\net6.0-windows\Darts_forms.Game_select.resources
+C:\Users\Brian\source\repos\Darts_forms\obj\Debug\net6.0-windows\Darts_forms.csproj.GenerateResource.cache
+C:\Users\Brian\source\repos\Darts_forms\obj\Debug\net6.0-windows\Darts_forms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brian\source\repos\Darts_forms\obj\Debug\net6.0-windows\Darts_forms.AssemblyInfoInputs.cache
+C:\Users\Brian\source\repos\Darts_forms\obj\Debug\net6.0-windows\Darts_forms.AssemblyInfo.cs
+C:\Users\Brian\source\repos\Darts_forms\obj\Debug\net6.0-windows\Darts_forms.csproj.CoreCompileInputs.cache
+C:\Users\Brian\source\repos\Darts_forms\obj\Debug\net6.0-windows\Darts_forms.dll
+C:\Users\Brian\source\repos\Darts_forms\obj\Debug\net6.0-windows\refint\Darts_forms.dll
+C:\Users\Brian\source\repos\Darts_forms\obj\Debug\net6.0-windows\Darts_forms.pdb
+C:\Users\Brian\source\repos\Darts_forms\obj\Debug\net6.0-windows\Darts_forms.genruntimeconfig.cache
+C:\Users\Brian\source\repos\Darts_forms\obj\Debug\net6.0-windows\ref\Darts_forms.dll
