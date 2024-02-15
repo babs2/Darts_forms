@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brian\\source\\repos\\Darts_forms\\Darts_forms.csproj": {}
+    "C:\\Users\\Brian\\source\\repos\\Darts_forms2\\Darts_forms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brian\\source\\repos\\Darts_forms\\Darts_forms.csproj": {
+    "C:\\Users\\Brian\\source\\repos\\Darts_forms2\\Darts_forms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brian\\source\\repos\\Darts_forms\\Darts_forms.csproj",
+        "projectUniqueName": "C:\\Users\\Brian\\source\\repos\\Darts_forms2\\Darts_forms.csproj",
         "projectName": "Darts_forms",
-        "projectPath": "C:\\Users\\Brian\\source\\repos\\Darts_forms\\Darts_forms.csproj",
+        "projectPath": "C:\\Users\\Brian\\source\\repos\\Darts_forms2\\Darts_forms.csproj",
         "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brian\\source\\repos\\Darts_forms\\obj\\",
+        "outputPath": "C:\\Users\\Brian\\source\\repos\\Darts_forms2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -318,8 +318,8 @@ namespace Darts_forms
         private void beginButton_Click(object sender, EventArgs e)
         {
 
-            //label1.Text = "checkIn: " + checkIn + " checkout: " + checkOut + " splitBull: " + bull;
-            //label2.Text = "pointcap: " + pointCap + " lowball: " + lowball + " steel outs: " + steel + " soft tip: " + soft;
+            label1.Text = "checkIn: " + checkIn + " checkout: " + checkOut + " splitBull: " + bull;
+            label2.Text = "pointcap: " + pointCap + " lowball: " + lowball + " steel outs: " + steel + " soft tip: " + soft;
             if (checkBox01.Checked)
             {
                 Program.game01(checkIn, checkOut, bull);
