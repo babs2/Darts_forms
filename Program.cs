@@ -16,12 +16,15 @@ namespace Darts_forms
 
         public static void cricketGame(bool pointCap, bool lowball)
         {
-
+            MessageBox.Show("Cricket Coming soon");
         }
 
         public static void game01(string checkIn, string checkOut, bool splitBull)
         {
-
+            //MessageBox.Show("01 game selected");
+            gameOf01 g01 = new gameOf01();
+            g01.Show();
+            g01.Activate();
         }
 
         public static void training(bool steel, bool soft)

@@ -1,3 +1,5 @@
+using Darts_Outs;
+
 namespace Darts_forms
 {
     public partial class Game_select : Form
@@ -324,18 +326,33 @@ namespace Darts_forms
             {
                 Program.game01(checkIn, checkOut, bull);
             }
-            if (checkBox_cricket.Checked)
-            {
-                Program.cricketGame(pointCap, lowball);
-            }
-            if (softTipOuts.Checked)
-            {
-                Program.training(false, true);
-            }
-            if (OutsTrainer.Checked)
-            {
-                Program.training(true, false);
-            }
+            //if (checkBox_cricket.Checked)
+            //{
+            //    Program.cricketGame(pointCap, lowball);
+            //}
+            //if (softTipOuts.Checked)
+            //{
+            //    Program.training(false, true);
+            //}
+            //if (OutsTrainer.Checked)
+            //{
+            //    Program.training(true, false);
+            //}         
+
+            //int i = 170;
+            //while (i > 20)
+            //{
+            //    label2.Text = i.ToString();
+            //    string outPut = Darts_Outs.OutsLibrary.score(i);
+            //    label1.Text = outPut;
+            //    label1.Refresh();
+            //    System.Threading.Thread.Sleep(200);
+            //    i--;
+            //    label1.Text = "          \n " + "        \n" + "          \n" + "         \n" + "           \n" + "          ";
+            //    label1.Refresh();
+            //    label2.Text = "          ";
+            //    label2.Refresh();
+            //}
         }
     }
 }

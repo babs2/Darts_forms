@@ -41,11 +41,11 @@
             checkBox_cricket = new CheckBox();
             checkBox01 = new CheckBox();
             Training = new GroupBox();
+            label2 = new Label();
             label1 = new Label();
             softTipOuts = new CheckBox();
             OutsTrainer = new CheckBox();
             beginButton = new Button();
-            label2 = new Label();
             game_selectGrpBox.SuspendLayout();
             Training.SuspendLayout();
             SuspendLayout();
@@ -208,6 +208,15 @@
             Training.TabStop = false;
             Training.Text = "Training Options";
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(174, 28);
+            label2.Name = "label2";
+            label2.Size = new Size(38, 15);
+            label2.TabIndex = 3;
+            label2.Text = "label2";
+            // 
             // label1
             // 
             label1.AutoSize = true;
@@ -251,15 +260,6 @@
             beginButton.UseVisualStyleBackColor = false;
             beginButton.Click += beginButton_Click;
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(13, 120);
-            label2.Name = "label2";
-            label2.Size = new Size(38, 15);
-            label2.TabIndex = 3;
-            label2.Text = "label2";
-            // 
             // Game_select
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -296,7 +296,7 @@
         private CheckBox OpenOutChkBox;
         private CheckBox OpenInChkBox;
         private Button beginButton;
-        private Label label1;
-        private Label label2;
+        public Label label1;
+        public Label label2;
     }
 }

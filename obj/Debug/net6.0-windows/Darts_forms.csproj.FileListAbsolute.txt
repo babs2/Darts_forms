@@ -30,3 +30,8 @@ C:\Users\Brian\source\repos\Darts_forms2\obj\Debug\net6.0-windows\refint\Darts_f
 C:\Users\Brian\source\repos\Darts_forms2\obj\Debug\net6.0-windows\Darts_forms.pdb
 C:\Users\Brian\source\repos\Darts_forms2\obj\Debug\net6.0-windows\Darts_forms.genruntimeconfig.cache
 C:\Users\Brian\source\repos\Darts_forms2\obj\Debug\net6.0-windows\ref\Darts_forms.dll
+C:\Users\Brian\source\repos\Darts_forms2\bin\Debug\net6.0-windows\Darts_Outs.dll
+C:\Users\Brian\source\repos\Darts_forms2\bin\Debug\net6.0-windows\Darts_Outs.pdb
+C:\Users\Brian\source\repos\Darts_forms2\obj\Debug\net6.0-windows\Darts_forms.csproj.AssemblyReference.cache
+C:\Users\Brian\source\repos\Darts_forms2\obj\Debug\net6.0-windows\Darts_forms.csproj.CopyComplete
+C:\Users\Brian\source\repos\Darts_forms2\obj\Debug\net6.0-windows\Darts_forms.gameOf01.resources

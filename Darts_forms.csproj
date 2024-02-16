@@ -8,4 +8,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Darts_Outs">
+      <HintPath>..\Darts_Outs\bin\Debug\net6.0-windows\Darts_Outs.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
