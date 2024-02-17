@@ -46,12 +46,16 @@
             softTipOuts = new CheckBox();
             OutsTrainer = new CheckBox();
             beginButton = new Button();
+            gameOf01Startbox = new TextBox();
+            gmae01startlbl = new Label();
             game_selectGrpBox.SuspendLayout();
             Training.SuspendLayout();
             SuspendLayout();
             // 
             // game_selectGrpBox
             // 
+            game_selectGrpBox.Controls.Add(gmae01startlbl);
+            game_selectGrpBox.Controls.Add(gameOf01Startbox);
             game_selectGrpBox.Controls.Add(OpenOutChkBox);
             game_selectGrpBox.Controls.Add(OpenInChkBox);
             game_selectGrpBox.Controls.Add(CricketLowBallBox);
@@ -260,6 +264,22 @@
             beginButton.UseVisualStyleBackColor = false;
             beginButton.Click += beginButton_Click;
             // 
+            // gameOf01Startbox
+            // 
+            gameOf01Startbox.Location = new Point(16, 196);
+            gameOf01Startbox.Name = "gameOf01Startbox";
+            gameOf01Startbox.Size = new Size(128, 23);
+            gameOf01Startbox.TabIndex = 15;
+            // 
+            // gmae01startlbl
+            // 
+            gmae01startlbl.AutoSize = true;
+            gmae01startlbl.Location = new Point(165, 202);
+            gmae01startlbl.Name = "gmae01startlbl";
+            gmae01startlbl.Size = new Size(129, 15);
+            gmae01startlbl.TabIndex = 16;
+            gmae01startlbl.Text = "01 Game Starting Score";
+            // 
             // Game_select
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -298,5 +318,7 @@
         private Button beginButton;
         public Label label1;
         public Label label2;
+        private Label gmae01startlbl;
+        private TextBox gameOf01Startbox;
     }
 }

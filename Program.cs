@@ -2,6 +2,7 @@ namespace Darts_forms
 {
     internal static class Program
     {
+        public static int game01StartScore;
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>

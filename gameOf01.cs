@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace Darts_forms
 {
@@ -21,6 +22,8 @@ namespace Darts_forms
         public int p2remaining;
         public int p1dartsthrown;
         public int p2dartsthrown;
+        public double p1Average;
+        public double p2Average;
         public gameOf01()
         {
             InitializeComponent();
@@ -28,15 +31,14 @@ namespace Darts_forms
             p2round = 1;
             p1roundscore = 0;
             p2roundscore = 0;
-            p1remaining = 501;
-            p2remaining = 501;
+            p1remaining = Program.game01StartScore;
+            p2remaining = Program.game01StartScore;
             p1dartsthrown = 0;
             p2dartsthrown = 0;
+            p1501lbl.Text = Program.game01StartScore.ToString();
+            p2501lbl.Text = Program.game01StartScore.ToString();
+            playAgainbtn.Visible = false;
 
-            //while ((p1remaining > 0) && (p2remaining > 0))
-            //{
-
-            //}
         }
 
         private void addthrowp1btn_Click(object sender, EventArgs e)
@@ -54,12 +56,18 @@ namespace Darts_forms
                 p2roundscore = 0;
                 addthrowp2btn.Enabled = true;
                 addthrowp1btn.Enabled = false;
+                p2throwbox.Focus();
+            }
+            else
+            {
+                p1throwbox.Focus();
             }
             outsP1lbl.Text = Darts_Outs.OutsLibrary.score(p1remaining);
             if (p1remaining == 0)
             {
                 addthrowp1btn.Enabled = false;
                 addthrowp2btn.Enabled = false;
+                playAgainbtn.Visible = true;
             }
         }
 
@@ -78,8 +86,58 @@ namespace Darts_forms
                 p1roundscore = 0;
                 addthrowp2btn.Enabled = false;
                 addthrowp1btn.Enabled = true;
+                p1throwbox.Focus();
+            }
+            else
+            {
+                p2throwbox.Focus();
             }
             outsP2lbl.Text = Darts_Outs.OutsLibrary.score(p2remaining);
+            if (p2remaining == 0)
+            {
+                addthrowp1btn.Enabled = false;
+                addthrowp2btn.Enabled = false;
+                playAgainbtn.Visible = true;
+            }
+        }
+
+        private void addthrowp1btn_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void p1throwbox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Return)
+            {
+                addthrowp1btn.PerformClick();
+                e.Handled = true;
+            }
+        }
+
+        private void p2throwbox_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void p2throwbox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Return)
+            {
+                addthrowp2btn.PerformClick();
+                e.Handled = true;
+            }
+
+        }
+
+        private void playAgainbtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            // Create a new instance of the form
+            gameOf01 g01 = new gameOf01();
+            g01.Show();
+            g01.Activate();
         }
     }
 }

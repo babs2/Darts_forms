@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             splitContainer1 = new SplitContainer();
+            playAgainbtn = new Button();
             outsP1lbl = new Label();
             roundScoreP1 = new Label();
             p1Throwlbl = new Label();
@@ -58,6 +59,7 @@
             // splitContainer1.Panel1
             // 
             splitContainer1.Panel1.BackColor = Color.Snow;
+            splitContainer1.Panel1.Controls.Add(playAgainbtn);
             splitContainer1.Panel1.Controls.Add(outsP1lbl);
             splitContainer1.Panel1.Controls.Add(roundScoreP1);
             splitContainer1.Panel1.Controls.Add(p1Throwlbl);
@@ -80,6 +82,17 @@
             splitContainer1.Size = new Size(800, 604);
             splitContainer1.SplitterDistance = 402;
             splitContainer1.TabIndex = 0;
+            // 
+            // playAgainbtn
+            // 
+            playAgainbtn.Location = new Point(135, 332);
+            playAgainbtn.Name = "playAgainbtn";
+            playAgainbtn.Size = new Size(264, 88);
+            playAgainbtn.TabIndex = 7;
+            playAgainbtn.Text = "Play Again";
+            playAgainbtn.UseVisualStyleBackColor = true;
+            playAgainbtn.Visible = false;
+            playAgainbtn.Click += playAgainbtn_Click;
             // 
             // outsP1lbl
             // 
@@ -114,6 +127,7 @@
             p1throwbox.PlaceholderText = "0";
             p1throwbox.Size = new Size(100, 23);
             p1throwbox.TabIndex = 3;
+            p1throwbox.KeyPress += p1throwbox_KeyPress;
             // 
             // addthrowp1btn
             // 
@@ -124,6 +138,7 @@
             addthrowp1btn.Text = "Add  Throw for P1";
             addthrowp1btn.UseVisualStyleBackColor = true;
             addthrowp1btn.Click += addthrowp1btn_Click;
+            addthrowp1btn.KeyDown += addthrowp1btn_KeyDown;
             // 
             // p1501lbl
             // 
@@ -176,6 +191,8 @@
             p2throwbox.PlaceholderText = "0";
             p2throwbox.Size = new Size(100, 23);
             p2throwbox.TabIndex = 5;
+            p2throwbox.KeyDown += p2throwbox_KeyDown;
+            p2throwbox.KeyPress += p2throwbox_KeyPress;
             // 
             // addthrowp2btn
             // 
@@ -239,5 +256,6 @@
         private Label roundScoreP2;
         private Label outsP1lbl;
         private Label outsP2lbl;
+        private Button playAgainbtn;
     }
 }
