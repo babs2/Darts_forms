@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             splitContainer1 = new SplitContainer();
+            outsP1lbl = new Label();
             roundScoreP1 = new Label();
             p1Throwlbl = new Label();
             p1throwbox = new TextBox();
             addthrowp1btn = new Button();
             p1501lbl = new Label();
             player1lbl = new Label();
+            outsP2lbl = new Label();
             roundScoreP2 = new Label();
             label2 = new Label();
             p2throwbox = new TextBox();
             addthrowp2btn = new Button();
             p2501lbl = new Label();
             player2lbl = new Label();
-            outsP1lbl = new Label();
-            outsP2lbl = new Label();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -57,6 +57,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            splitContainer1.Panel1.BackColor = Color.Snow;
             splitContainer1.Panel1.Controls.Add(outsP1lbl);
             splitContainer1.Panel1.Controls.Add(roundScoreP1);
             splitContainer1.Panel1.Controls.Add(p1Throwlbl);
@@ -67,6 +68,7 @@
             // 
             // splitContainer1.Panel2
             // 
+            splitContainer1.Panel2.BackColor = SystemColors.MenuHighlight;
             splitContainer1.Panel2.Controls.Add(outsP2lbl);
             splitContainer1.Panel2.Controls.Add(roundScoreP2);
             splitContainer1.Panel2.Controls.Add(label2);
@@ -74,18 +76,27 @@
             splitContainer1.Panel2.Controls.Add(addthrowp2btn);
             splitContainer1.Panel2.Controls.Add(p2501lbl);
             splitContainer1.Panel2.Controls.Add(player2lbl);
+            splitContainer1.Panel2.RightToLeft = RightToLeft.No;
             splitContainer1.Size = new Size(800, 604);
             splitContainer1.SplitterDistance = 402;
             splitContainer1.TabIndex = 0;
             // 
+            // outsP1lbl
+            // 
+            outsP1lbl.AutoSize = true;
+            outsP1lbl.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            outsP1lbl.Location = new Point(40, 131);
+            outsP1lbl.Name = "outsP1lbl";
+            outsP1lbl.Size = new Size(0, 30);
+            outsP1lbl.TabIndex = 6;
+            // 
             // roundScoreP1
             // 
             roundScoreP1.AutoSize = true;
-            roundScoreP1.Location = new Point(53, 405);
+            roundScoreP1.Location = new Point(40, 405);
             roundScoreP1.Name = "roundScoreP1";
-            roundScoreP1.Size = new Size(20, 15);
+            roundScoreP1.Size = new Size(0, 15);
             roundScoreP1.TabIndex = 5;
-            roundScoreP1.Text = "P1";
             // 
             // p1Throwlbl
             // 
@@ -100,6 +111,7 @@
             // 
             p1throwbox.Location = new Point(252, 531);
             p1throwbox.Name = "p1throwbox";
+            p1throwbox.PlaceholderText = "0";
             p1throwbox.Size = new Size(100, 23);
             p1throwbox.TabIndex = 3;
             // 
@@ -131,14 +143,22 @@
             player1lbl.TabIndex = 0;
             player1lbl.Text = "Player 1";
             // 
+            // outsP2lbl
+            // 
+            outsP2lbl.AutoSize = true;
+            outsP2lbl.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            outsP2lbl.Location = new Point(25, 131);
+            outsP2lbl.Name = "outsP2lbl";
+            outsP2lbl.Size = new Size(0, 30);
+            outsP2lbl.TabIndex = 8;
+            // 
             // roundScoreP2
             // 
             roundScoreP2.AutoSize = true;
-            roundScoreP2.Location = new Point(98, 405);
+            roundScoreP2.Location = new Point(36, 405);
             roundScoreP2.Name = "roundScoreP2";
-            roundScoreP2.Size = new Size(38, 15);
+            roundScoreP2.Size = new Size(0, 15);
             roundScoreP2.TabIndex = 7;
-            roundScoreP2.Text = "label3";
             // 
             // label2
             // 
@@ -153,6 +173,7 @@
             // 
             p2throwbox.Location = new Point(248, 531);
             p2throwbox.Name = "p2throwbox";
+            p2throwbox.PlaceholderText = "0";
             p2throwbox.Size = new Size(100, 23);
             p2throwbox.TabIndex = 5;
             // 
@@ -183,26 +204,6 @@
             player2lbl.Size = new Size(48, 15);
             player2lbl.TabIndex = 0;
             player2lbl.Text = "Player 2";
-            // 
-            // outsP1lbl
-            // 
-            outsP1lbl.AutoSize = true;
-            outsP1lbl.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            outsP1lbl.Location = new Point(40, 139);
-            outsP1lbl.Name = "outsP1lbl";
-            outsP1lbl.Size = new Size(71, 30);
-            outsP1lbl.TabIndex = 6;
-            outsP1lbl.Text = "label1";
-            // 
-            // outsP2lbl
-            // 
-            outsP2lbl.AutoSize = true;
-            outsP2lbl.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            outsP2lbl.Location = new Point(36, 140);
-            outsP2lbl.Name = "outsP2lbl";
-            outsP2lbl.Size = new Size(71, 30);
-            outsP2lbl.TabIndex = 8;
-            outsP2lbl.Text = "label1";
             // 
             // gameOf01
             // 

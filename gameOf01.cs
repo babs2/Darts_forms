@@ -56,6 +56,11 @@ namespace Darts_forms
                 addthrowp1btn.Enabled = false;
             }
             outsP1lbl.Text = Darts_Outs.OutsLibrary.score(p1remaining);
+            if (p1remaining == 0)
+            {
+                addthrowp1btn.Enabled = false;
+                addthrowp2btn.Enabled = false;
+            }
         }
 
         private void addthrowp2btn_Click(object sender, EventArgs e)
