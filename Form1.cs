@@ -336,10 +336,10 @@ namespace Darts_forms
             //{
             //    Program.training(false, true);
             //}
-            //if (OutsTrainer.Checked)
-            //{
-            //    Program.training(true, false);
-            //}         
+            if (OutsTrainer.Checked)
+            {
+                Program.training(true, false);
+            }         
 
         }
     }
