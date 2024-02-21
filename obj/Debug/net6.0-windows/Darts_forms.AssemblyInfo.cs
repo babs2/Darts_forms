@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Darts_forms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c0350704b5c25309fc545532b5691b5652b0222")]
 [assembly: System.Reflection.AssemblyProductAttribute("Darts_forms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Darts_forms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

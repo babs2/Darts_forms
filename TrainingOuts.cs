@@ -21,7 +21,7 @@ namespace Darts_forms
 
         public TrainingOuts()
         {
-            InitializeComponent();            
+            InitializeComponent();
         }
 
         private void dblOutCB_CheckedChanged(object sender, EventArgs e)
@@ -40,7 +40,7 @@ namespace Darts_forms
             //minOutBox & maxOutBox
             minOut = Convert.ToInt32(minOutBox.Text);
             maxOut = Convert.ToInt32(maxOutBox.Text);
-            outTesting = rnd.Next(minOut,maxOut);
+            outTesting = rnd.Next(minOut, maxOut);
             testingOutlbl.Text = outTesting.ToString();
             darts = 0;
             actualOuts.Text = "";

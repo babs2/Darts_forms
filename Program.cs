@@ -30,9 +30,12 @@ namespace Darts_forms
 
         public static void training(bool steel, bool soft)
         {
-            TrainingOuts training = new TrainingOuts();
-            training.Show();
-            training.Activate();
+            boardForm dartBoard = new boardForm();
+            dartBoard.Show();
+            dartBoard.Activate();
+            //TrainingOuts training = new TrainingOuts();
+            //training.Show();
+            //training.Activate();
         }
     }
 }

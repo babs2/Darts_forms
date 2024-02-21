@@ -155,7 +155,7 @@
             // 
             // single1
             // 
-            single1.Location = new Point(20, 120);
+            single1.Location = new Point(21, 144);
             single1.Name = "single1";
             single1.Size = new Size(75, 23);
             single1.TabIndex = 4;
@@ -165,7 +165,7 @@
             // 
             // double1
             // 
-            double1.Location = new Point(21, 154);
+            double1.Location = new Point(21, 115);
             double1.Name = "double1";
             double1.Size = new Size(75, 23);
             double1.TabIndex = 5;
@@ -175,7 +175,7 @@
             // 
             // tripple1
             // 
-            tripple1.Location = new Point(22, 188);
+            tripple1.Location = new Point(21, 173);
             tripple1.Name = "tripple1";
             tripple1.Size = new Size(75, 23);
             tripple1.TabIndex = 6;
@@ -185,7 +185,7 @@
             // 
             // tripple2
             // 
-            tripple2.Location = new Point(103, 188);
+            tripple2.Location = new Point(102, 173);
             tripple2.Name = "tripple2";
             tripple2.Size = new Size(75, 23);
             tripple2.TabIndex = 9;
@@ -195,7 +195,7 @@
             // 
             // double2
             // 
-            double2.Location = new Point(102, 154);
+            double2.Location = new Point(102, 115);
             double2.Name = "double2";
             double2.Size = new Size(75, 23);
             double2.TabIndex = 8;
@@ -205,7 +205,7 @@
             // 
             // single2
             // 
-            single2.Location = new Point(101, 120);
+            single2.Location = new Point(102, 144);
             single2.Name = "single2";
             single2.Size = new Size(75, 23);
             single2.TabIndex = 7;
@@ -215,7 +215,7 @@
             // 
             // tripple3
             // 
-            tripple3.Location = new Point(184, 188);
+            tripple3.Location = new Point(183, 173);
             tripple3.Name = "tripple3";
             tripple3.Size = new Size(75, 23);
             tripple3.TabIndex = 12;
@@ -225,7 +225,7 @@
             // 
             // double3
             // 
-            double3.Location = new Point(183, 154);
+            double3.Location = new Point(183, 115);
             double3.Name = "double3";
             double3.Size = new Size(75, 23);
             double3.TabIndex = 11;
@@ -235,7 +235,7 @@
             // 
             // single3
             // 
-            single3.Location = new Point(182, 120);
+            single3.Location = new Point(183, 144);
             single3.Name = "single3";
             single3.Size = new Size(75, 23);
             single3.TabIndex = 10;
@@ -245,7 +245,7 @@
             // 
             // tripple4
             // 
-            tripple4.Location = new Point(265, 188);
+            tripple4.Location = new Point(264, 173);
             tripple4.Name = "tripple4";
             tripple4.Size = new Size(75, 23);
             tripple4.TabIndex = 15;
@@ -255,7 +255,7 @@
             // 
             // double4
             // 
-            double4.Location = new Point(264, 154);
+            double4.Location = new Point(264, 115);
             double4.Name = "double4";
             double4.Size = new Size(75, 23);
             double4.TabIndex = 14;
@@ -265,7 +265,7 @@
             // 
             // single4
             // 
-            single4.Location = new Point(263, 120);
+            single4.Location = new Point(264, 144);
             single4.Name = "single4";
             single4.Size = new Size(75, 23);
             single4.TabIndex = 13;
@@ -275,7 +275,7 @@
             // 
             // tripple5
             // 
-            tripple5.Location = new Point(346, 188);
+            tripple5.Location = new Point(345, 173);
             tripple5.Name = "tripple5";
             tripple5.Size = new Size(75, 23);
             tripple5.TabIndex = 18;
@@ -285,7 +285,7 @@
             // 
             // double5
             // 
-            double5.Location = new Point(345, 154);
+            double5.Location = new Point(345, 115);
             double5.Name = "double5";
             double5.Size = new Size(75, 23);
             double5.TabIndex = 17;
@@ -295,7 +295,7 @@
             // 
             // single5
             // 
-            single5.Location = new Point(344, 120);
+            single5.Location = new Point(345, 144);
             single5.Name = "single5";
             single5.Size = new Size(75, 23);
             single5.TabIndex = 16;
@@ -305,7 +305,7 @@
             // 
             // triple6
             // 
-            triple6.Location = new Point(427, 188);
+            triple6.Location = new Point(426, 173);
             triple6.Name = "triple6";
             triple6.Size = new Size(75, 23);
             triple6.TabIndex = 21;
@@ -315,7 +315,7 @@
             // 
             // double6
             // 
-            double6.Location = new Point(426, 154);
+            double6.Location = new Point(426, 115);
             double6.Name = "double6";
             double6.Size = new Size(75, 23);
             double6.TabIndex = 20;
@@ -325,7 +325,7 @@
             // 
             // single6
             // 
-            single6.Location = new Point(425, 120);
+            single6.Location = new Point(426, 144);
             single6.Name = "single6";
             single6.Size = new Size(75, 23);
             single6.TabIndex = 19;
@@ -335,7 +335,7 @@
             // 
             // triple7
             // 
-            triple7.Location = new Point(508, 188);
+            triple7.Location = new Point(507, 173);
             triple7.Name = "triple7";
             triple7.Size = new Size(75, 23);
             triple7.TabIndex = 24;
@@ -345,7 +345,7 @@
             // 
             // double7
             // 
-            double7.Location = new Point(507, 154);
+            double7.Location = new Point(507, 115);
             double7.Name = "double7";
             double7.Size = new Size(75, 23);
             double7.TabIndex = 23;
@@ -355,7 +355,7 @@
             // 
             // single7
             // 
-            single7.Location = new Point(506, 120);
+            single7.Location = new Point(507, 144);
             single7.Name = "single7";
             single7.Size = new Size(75, 23);
             single7.TabIndex = 22;
@@ -365,7 +365,7 @@
             // 
             // triple8
             // 
-            triple8.Location = new Point(589, 188);
+            triple8.Location = new Point(588, 173);
             triple8.Name = "triple8";
             triple8.Size = new Size(75, 23);
             triple8.TabIndex = 27;
@@ -375,7 +375,7 @@
             // 
             // double8
             // 
-            double8.Location = new Point(588, 154);
+            double8.Location = new Point(588, 115);
             double8.Name = "double8";
             double8.Size = new Size(75, 23);
             double8.TabIndex = 26;
@@ -385,7 +385,7 @@
             // 
             // single8
             // 
-            single8.Location = new Point(587, 120);
+            single8.Location = new Point(588, 144);
             single8.Name = "single8";
             single8.Size = new Size(75, 23);
             single8.TabIndex = 25;
@@ -395,7 +395,7 @@
             // 
             // triple16
             // 
-            triple16.Location = new Point(588, 371);
+            triple16.Location = new Point(580, 360);
             triple16.Name = "triple16";
             triple16.Size = new Size(75, 23);
             triple16.TabIndex = 51;
@@ -405,7 +405,7 @@
             // 
             // double16
             // 
-            double16.Location = new Point(587, 337);
+            double16.Location = new Point(578, 302);
             double16.Name = "double16";
             double16.Size = new Size(75, 23);
             double16.TabIndex = 50;
@@ -415,7 +415,7 @@
             // 
             // single16
             // 
-            single16.Location = new Point(586, 303);
+            single16.Location = new Point(579, 331);
             single16.Name = "single16";
             single16.Size = new Size(75, 23);
             single16.TabIndex = 49;
@@ -425,7 +425,7 @@
             // 
             // triple15
             // 
-            triple15.Location = new Point(507, 371);
+            triple15.Location = new Point(499, 360);
             triple15.Name = "triple15";
             triple15.Size = new Size(75, 23);
             triple15.TabIndex = 48;
@@ -435,7 +435,7 @@
             // 
             // double15
             // 
-            double15.Location = new Point(506, 337);
+            double15.Location = new Point(497, 302);
             double15.Name = "double15";
             double15.Size = new Size(75, 23);
             double15.TabIndex = 47;
@@ -445,7 +445,7 @@
             // 
             // single15
             // 
-            single15.Location = new Point(505, 303);
+            single15.Location = new Point(498, 331);
             single15.Name = "single15";
             single15.Size = new Size(75, 23);
             single15.TabIndex = 46;
@@ -455,7 +455,7 @@
             // 
             // triple14
             // 
-            triple14.Location = new Point(426, 371);
+            triple14.Location = new Point(418, 360);
             triple14.Name = "triple14";
             triple14.Size = new Size(75, 23);
             triple14.TabIndex = 45;
@@ -465,7 +465,7 @@
             // 
             // double14
             // 
-            double14.Location = new Point(425, 337);
+            double14.Location = new Point(416, 302);
             double14.Name = "double14";
             double14.Size = new Size(75, 23);
             double14.TabIndex = 44;
@@ -475,7 +475,7 @@
             // 
             // single14
             // 
-            single14.Location = new Point(424, 303);
+            single14.Location = new Point(417, 331);
             single14.Name = "single14";
             single14.Size = new Size(75, 23);
             single14.TabIndex = 43;
@@ -485,7 +485,7 @@
             // 
             // triple13
             // 
-            triple13.Location = new Point(345, 371);
+            triple13.Location = new Point(337, 360);
             triple13.Name = "triple13";
             triple13.Size = new Size(75, 23);
             triple13.TabIndex = 42;
@@ -495,7 +495,7 @@
             // 
             // double13
             // 
-            double13.Location = new Point(344, 337);
+            double13.Location = new Point(335, 302);
             double13.Name = "double13";
             double13.Size = new Size(75, 23);
             double13.TabIndex = 41;
@@ -505,7 +505,7 @@
             // 
             // single13
             // 
-            single13.Location = new Point(343, 303);
+            single13.Location = new Point(336, 331);
             single13.Name = "single13";
             single13.Size = new Size(75, 23);
             single13.TabIndex = 40;
@@ -515,7 +515,7 @@
             // 
             // triple12
             // 
-            triple12.Location = new Point(264, 371);
+            triple12.Location = new Point(256, 360);
             triple12.Name = "triple12";
             triple12.Size = new Size(75, 23);
             triple12.TabIndex = 39;
@@ -525,7 +525,7 @@
             // 
             // double12
             // 
-            double12.Location = new Point(263, 337);
+            double12.Location = new Point(254, 302);
             double12.Name = "double12";
             double12.Size = new Size(75, 23);
             double12.TabIndex = 38;
@@ -535,7 +535,7 @@
             // 
             // single12
             // 
-            single12.Location = new Point(262, 303);
+            single12.Location = new Point(255, 331);
             single12.Name = "single12";
             single12.Size = new Size(75, 23);
             single12.TabIndex = 37;
@@ -545,7 +545,7 @@
             // 
             // triple11
             // 
-            triple11.Location = new Point(183, 371);
+            triple11.Location = new Point(175, 360);
             triple11.Name = "triple11";
             triple11.Size = new Size(75, 23);
             triple11.TabIndex = 36;
@@ -555,7 +555,7 @@
             // 
             // double11
             // 
-            double11.Location = new Point(182, 337);
+            double11.Location = new Point(173, 302);
             double11.Name = "double11";
             double11.Size = new Size(75, 23);
             double11.TabIndex = 35;
@@ -565,7 +565,7 @@
             // 
             // single11
             // 
-            single11.Location = new Point(181, 303);
+            single11.Location = new Point(174, 331);
             single11.Name = "single11";
             single11.Size = new Size(75, 23);
             single11.TabIndex = 34;
@@ -575,7 +575,7 @@
             // 
             // triple10
             // 
-            triple10.Location = new Point(102, 371);
+            triple10.Location = new Point(94, 360);
             triple10.Name = "triple10";
             triple10.Size = new Size(75, 23);
             triple10.TabIndex = 33;
@@ -585,7 +585,7 @@
             // 
             // double10
             // 
-            double10.Location = new Point(101, 337);
+            double10.Location = new Point(92, 302);
             double10.Name = "double10";
             double10.Size = new Size(75, 23);
             double10.TabIndex = 32;
@@ -595,7 +595,7 @@
             // 
             // single10
             // 
-            single10.Location = new Point(100, 303);
+            single10.Location = new Point(93, 331);
             single10.Name = "single10";
             single10.Size = new Size(75, 23);
             single10.TabIndex = 31;
@@ -605,7 +605,7 @@
             // 
             // triple9
             // 
-            triple9.Location = new Point(21, 371);
+            triple9.Location = new Point(13, 360);
             triple9.Name = "triple9";
             triple9.Size = new Size(75, 23);
             triple9.TabIndex = 30;
@@ -615,7 +615,7 @@
             // 
             // double9
             // 
-            double9.Location = new Point(20, 337);
+            double9.Location = new Point(11, 302);
             double9.Name = "double9";
             double9.Size = new Size(75, 23);
             double9.TabIndex = 29;
@@ -625,7 +625,7 @@
             // 
             // single9
             // 
-            single9.Location = new Point(19, 303);
+            single9.Location = new Point(12, 331);
             single9.Name = "single9";
             single9.Size = new Size(75, 23);
             single9.TabIndex = 28;
@@ -635,7 +635,7 @@
             // 
             // doubleBull
             // 
-            doubleBull.Location = new Point(344, 502);
+            doubleBull.Location = new Point(337, 502);
             doubleBull.Name = "doubleBull";
             doubleBull.Size = new Size(75, 23);
             doubleBull.TabIndex = 65;
@@ -645,7 +645,7 @@
             // 
             // singleBull
             // 
-            singleBull.Location = new Point(343, 468);
+            singleBull.Location = new Point(337, 473);
             singleBull.Name = "singleBull";
             singleBull.Size = new Size(75, 23);
             singleBull.TabIndex = 64;
@@ -655,7 +655,7 @@
             // 
             // triple20
             // 
-            triple20.Location = new Point(264, 536);
+            triple20.Location = new Point(256, 531);
             triple20.Name = "triple20";
             triple20.Size = new Size(75, 23);
             triple20.TabIndex = 63;
@@ -665,7 +665,7 @@
             // 
             // double20
             // 
-            double20.Location = new Point(263, 502);
+            double20.Location = new Point(256, 473);
             double20.Name = "double20";
             double20.Size = new Size(75, 23);
             double20.TabIndex = 62;
@@ -675,7 +675,7 @@
             // 
             // single20
             // 
-            single20.Location = new Point(262, 468);
+            single20.Location = new Point(256, 502);
             single20.Name = "single20";
             single20.Size = new Size(75, 23);
             single20.TabIndex = 61;
@@ -685,7 +685,7 @@
             // 
             // triple19
             // 
-            triple19.Location = new Point(183, 536);
+            triple19.Location = new Point(175, 531);
             triple19.Name = "triple19";
             triple19.Size = new Size(75, 23);
             triple19.TabIndex = 60;
@@ -695,7 +695,7 @@
             // 
             // double19
             // 
-            double19.Location = new Point(182, 502);
+            double19.Location = new Point(175, 473);
             double19.Name = "double19";
             double19.Size = new Size(75, 23);
             double19.TabIndex = 59;
@@ -705,7 +705,7 @@
             // 
             // single19
             // 
-            single19.Location = new Point(181, 468);
+            single19.Location = new Point(175, 502);
             single19.Name = "single19";
             single19.Size = new Size(75, 23);
             single19.TabIndex = 58;
@@ -715,7 +715,7 @@
             // 
             // triple18
             // 
-            triple18.Location = new Point(102, 536);
+            triple18.Location = new Point(94, 531);
             triple18.Name = "triple18";
             triple18.Size = new Size(75, 23);
             triple18.TabIndex = 57;
@@ -725,7 +725,7 @@
             // 
             // double18
             // 
-            double18.Location = new Point(101, 502);
+            double18.Location = new Point(94, 473);
             double18.Name = "double18";
             double18.Size = new Size(75, 23);
             double18.TabIndex = 56;
@@ -735,7 +735,7 @@
             // 
             // single18
             // 
-            single18.Location = new Point(100, 468);
+            single18.Location = new Point(94, 502);
             single18.Name = "single18";
             single18.Size = new Size(75, 23);
             single18.TabIndex = 55;
@@ -745,7 +745,7 @@
             // 
             // triple17
             // 
-            triple17.Location = new Point(21, 536);
+            triple17.Location = new Point(13, 531);
             triple17.Name = "triple17";
             triple17.Size = new Size(75, 23);
             triple17.TabIndex = 54;
@@ -755,7 +755,7 @@
             // 
             // double17
             // 
-            double17.Location = new Point(20, 502);
+            double17.Location = new Point(13, 473);
             double17.Name = "double17";
             double17.Size = new Size(75, 23);
             double17.TabIndex = 53;
@@ -765,7 +765,7 @@
             // 
             // single17
             // 
-            single17.Location = new Point(19, 468);
+            single17.Location = new Point(13, 502);
             single17.Name = "single17";
             single17.Size = new Size(75, 23);
             single17.TabIndex = 52;
@@ -786,9 +786,10 @@
             // testingOutlbl
             // 
             testingOutlbl.AutoSize = true;
-            testingOutlbl.Location = new Point(265, 21);
+            testingOutlbl.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            testingOutlbl.Location = new Point(293, 10);
             testingOutlbl.Name = "testingOutlbl";
-            testingOutlbl.Size = new Size(28, 15);
+            testingOutlbl.Size = new Size(83, 45);
             testingOutlbl.TabIndex = 67;
             testingOutlbl.Text = "XXX";
             // 
@@ -822,7 +823,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(288, 91);
+            label4.Location = new Point(288, 94);
             label4.Name = "label4";
             label4.Size = new Size(13, 15);
             label4.TabIndex = 71;
@@ -831,7 +832,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(369, 91);
+            label5.Location = new Point(369, 94);
             label5.Name = "label5";
             label5.Size = new Size(13, 15);
             label5.TabIndex = 72;
@@ -840,7 +841,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(447, 93);
+            label6.Location = new Point(441, 93);
             label6.Name = "label6";
             label6.Size = new Size(13, 15);
             label6.TabIndex = 73;
@@ -858,7 +859,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(615, 93);
+            label8.Location = new Point(610, 93);
             label8.Name = "label8";
             label8.Size = new Size(13, 15);
             label8.TabIndex = 75;
@@ -867,7 +868,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(43, 281);
+            label9.Location = new Point(43, 278);
             label9.Name = "label9";
             label9.Size = new Size(13, 15);
             label9.TabIndex = 76;
@@ -876,7 +877,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(126, 282);
+            label10.Location = new Point(122, 278);
             label10.Name = "label10";
             label10.Size = new Size(19, 15);
             label10.TabIndex = 77;
@@ -885,7 +886,7 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(202, 282);
+            label11.Location = new Point(207, 278);
             label11.Name = "label11";
             label11.Size = new Size(19, 15);
             label11.TabIndex = 78;
@@ -894,7 +895,7 @@
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(287, 281);
+            label12.Location = new Point(288, 278);
             label12.Name = "label12";
             label12.Size = new Size(19, 15);
             label12.TabIndex = 79;
@@ -903,7 +904,7 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(357, 282);
+            label13.Location = new Point(363, 278);
             label13.Name = "label13";
             label13.Size = new Size(19, 15);
             label13.TabIndex = 80;
@@ -912,7 +913,7 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(437, 283);
+            label14.Location = new Point(435, 278);
             label14.Name = "label14";
             label14.Size = new Size(19, 15);
             label14.TabIndex = 81;
@@ -921,7 +922,7 @@
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(514, 281);
+            label15.Location = new Point(524, 278);
             label15.Name = "label15";
             label15.Size = new Size(19, 15);
             label15.TabIndex = 82;
@@ -939,7 +940,7 @@
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new Point(37, 447);
+            label17.Location = new Point(37, 451);
             label17.Name = "label17";
             label17.Size = new Size(19, 15);
             label17.TabIndex = 84;
@@ -948,7 +949,7 @@
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(118, 449);
+            label18.Location = new Point(118, 451);
             label18.Name = "label18";
             label18.Size = new Size(19, 15);
             label18.TabIndex = 85;
@@ -966,7 +967,7 @@
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(284, 448);
+            label20.Location = new Point(282, 451);
             label20.Name = "label20";
             label20.Size = new Size(19, 15);
             label20.TabIndex = 87;
@@ -999,9 +1000,8 @@
             actualOuts.AutoSize = true;
             actualOuts.Location = new Point(482, 469);
             actualOuts.Name = "actualOuts";
-            actualOuts.Size = new Size(44, 15);
+            actualOuts.Size = new Size(0, 15);
             actualOuts.TabIndex = 90;
-            actualOuts.Text = "label21";
             // 
             // TrainingOuts
             // 
